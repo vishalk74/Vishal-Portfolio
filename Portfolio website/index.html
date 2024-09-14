@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1><span>V</span>ishal K.</h1>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Front Developer</p>
+                <h1>Hi, I'm <span>Vishal</span><br> Kushwah From Gwalior</h1>
+            </div>
+        </div>
+    </div>
+    <!-----------------about----------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img class="image" src="IMG20210927164725-01.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>My name is Vishal Kushwah. I am from Gwalior. I have completed my higher secondary education
+                        Currently persuing B.sc.3rd from Science College.I have learned Frontend Development using this
+                        languages
+                        HTML, CSS & JAVASCRIPT. My strength are quick Learner, Multitasker, Communication skill,
+                        Teamwork, Graphic designer & Photoshop. My goal is become a Webdeveloper in reputed company.
+                        That is all about.
+                    </p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('certificate')">Certificate</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Web App Devlopment</li>
+                            <li><span>Graphic Design</span><br>Creative and Ilustrative</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="certificate">
+                        <ul>
+                            <li><span>HTML</span><br>Front End Development - Great learming Acedemy</li>
+                            <li><span>CSS</span><br>Front End Development - Great learming Acedemyt</li>
+                            <li><span>Data Analytics</span><br>Visualization Job - Accenture from Forage</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022-25</span><br>B.Sc. Biotech from Science College, Gwalior.</li>
+                            <li><span>2021-22</span><br>12th from Jiwaji H. Sec.School, Gwalior.</li>
+                            <li><span>2019-20</span><br>10th from Green Garden H. Sec.School, Gwalior.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---- --------services------------- ---->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <span class="material-symbols-outlined"> code </span>
+                    <h2>Front End Design</h2>
+                    <p>creating the user interface and user experience of a website or application.
+                        It involves using HTML, CSS, and JavaScript to create a visually appealing and
+                        interactive user interface that is optimized for different devices and screen sizes.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <span class="material-symbols-outlined"> design_services </span>
+                    <h2>UX/UI Design</h2>
+                    <p>UI/UX designer is quite common in the design industry.
+                        This type of designer is responsible for both the visual aspects of a digital product
+                        (UI) and ensuring a positive and effective overall user experience (UX).</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <span class="material-symbols-outlined"> draw </span>
+                    <h2>Graphic Design</h2>
+                    <p>Logo design, Web design, Packaging design, Motion graphics, and Marketing materials.
+                        Branding involves the development of a unique identity for a company or product, and
+                        advertising graphic design promotes or sells a product or service through visuals.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------portfolio---------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image1.png">
+                    <div class="layer">
+                        <h3>Brand Logo Design </h3>
+                        <p>The logo helps to know our brand or company by its unique design logo.
+                            Which play an important role in promotion.</p>
+                        <a href="#"><span class="material-symbols-outlined"> link</span></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image2.png">
+                    <div class="layer">
+                        <h3>Shop Menu Flyer</h3>
+                        <p>Menu is used to share rate of our food items to the customers.</p>
+                        <a href="#"><span class="material-symbols-outlined"> link</span></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image3.jpg">
+                    <div class="layer">
+                        <h3>Function Invitation</h3>
+                        <p>Invite to someone by using invitation card or flyer. Share the information or address to all.
+                        </p>
+                        <a href="#"><span class="material-symbols-outlined"> link</span></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- --------contact------------  -->
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title" >Contact Me</h1>
+                    <p>vishalsk8962@gmail.com</p>
+                    <p>+91 8962438137</p>
+                    <div class="social-icons">
+                        <a href=""><i> <span class="material-symbols-outlined">public</span> </i></a>
+                        <a href=""><i> <span class="material-symbols-outlined">public</span> </i></a>
+        </div>
+     </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+
+</html>
